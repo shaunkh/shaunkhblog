@@ -2,7 +2,7 @@
 title: Tetranode on Bankless
 date: 2022/03/05
 description: Notes I took while watching the episode
-tag: crypto, defi, ethereum
+tag: notes, crypto, defi, ethereum
 author: Shaun Khundker
 ---
 
