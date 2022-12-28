@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     const meta = {
-      title: "Shaun Khundker's blog",
+      title: "Shaun Khundker's Blog",
       description: 'crypto, philosophy, productivity, entrepreneurship',
       image:
         'https://i.ibb.co/sJjCf4T/sky-and-planet-by-vv-ave-df82g2i-fullview.jpg'
