@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: "Shaun Khundker's blog",
       description: 'crypto, philosophy, productivity, entrepreneurship',
       image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+        'https://i.ibb.co/sJjCf4T/sky-and-planet-by-vv-ave-df82g2i-fullview.jpg'
     }
 
     return (
