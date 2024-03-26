@@ -1,6 +1,6 @@
 ---
 date: "2022-12-07T05:35:07.322Z"
-title: What I learned in 2022
+title: Things I've learned in 2022
 tag: posts, productivity, reflection
 author:
   name: Shaun Khundker

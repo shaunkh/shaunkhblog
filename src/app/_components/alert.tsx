@@ -4,9 +4,10 @@ import cn from "classnames";
 
 type Props = {
   preview?: boolean;
+  isSourceCode?: boolean;
 };
 
-const Alert = ({ preview }: Props) => {
+const Alert = ({ preview, isSourceCode }: Props) => {
   return (
     <div
       className={cn("border-b", {
@@ -27,17 +28,19 @@ const Alert = ({ preview }: Props) => {
               </a>{" "}
               to exit preview mode.
             </>
-          ) : (
+          ) : isSourceCode ? (
             <>
               The source code for this blog is{" "}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href={`https://github.com/shaunkh/shaunkhblog`}
                 className="underline hover:text-blue-600 duration-200 transition-colors"
               >
                 available on GitHub
               </a>
               .
             </>
+          ) : (
+            <></>
           )}
         </div>
       </Container>
